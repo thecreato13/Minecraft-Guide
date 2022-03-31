@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Jump around</title>
+    </head>
+    <body>
+        <style>
+            #Heading{
+                font-family: 'Times New Roman', Times, serif;
+                background-color:darkcyan;
+            }
+            #contents{
+                text-align: center;
+                font-size: medium;
+                font-style: italic;
+            }
+            #list1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            #survival{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                background-color: rgb(64, 226, 43);
+            }
+            #intro{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;;
+            }
+            #mcterrain{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #redstone{
+                color: darkred;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #gold{
+                color:rgb(172, 149, 22);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #lapis{
+                color:darkblue;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #diamonds{
+                color:rgb(47, 160, 160);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #cave{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #mining{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #enchanting{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #howtoenchant{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+            #treasureenchants{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+            }
+        </style>
+        <H1 id="Heading">The Minecraft Guide(For begginers!!).</H1>
+        <h4>Minecraft is a big game and it is eays to get lost in its <em>depths</em> of the game</h4>
+        <h3 id="contents">Contents:</h3>
+        <ol id="list1">
+            <li><a href="#survival">Survival</a></li>
+            <li>Creative</li>
+            <li>Multiplayer</li>
+            <li>The Game's Lore</li>
+            <li>Other things and Credits</li>
+        </ol>
+        <h2 id="survival">Survival</h2>
+        <p id="intro">Minecraft Survival mode is not the easiest of modes. You not only have to protect yourself from dangeros mobs, you must also defeat the EnderDragon - which is a creature that has huanted the end since beggining of time. The best way to keep yourself safe from mobs is by upgrading your gear and building a small hut to live in, while you work on building a better base.</p>
+        <img src="data:image/jpeg;base64,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" height="200">
+        <p id="mcterrain">You probably want a ideal setup like this because it include's many thing you need early game. when you first log into a Minecraft(MC) world the first thing you take is the surroundings. You may see that you probably spawned in a brich/oak forest biome. This is the most likely occurance due to Minecrafts terrain genration code - which for fun fact is called perlin noise... there is no noise though - however there is a chance you may spawn some place else. But this dosen't really matter as long as you spawn near some tress and animals. </p>
+        <p id="cave">Now at the moment Minecraft has been nothing but a peaceful block game... until you hit the caves. In the new 1.18 Caves and Cliffs update part II, traversing down cave have become more scary, with increased mob spawn rates and ores generation changed it is not quite hard to find the iron you need to mine most of the essential ores, such as:</p>
+        <ol>
+            <li id="redstone">RedStone</li>
+            <li id="gold">Gold</li>
+            <li id="lapis">Lapis Lazuli</li>
+            <li id="copper">Copper</li>
+            <li id="diamonds">Diamonds!!</li>
+        </ol>
+        <p id="mining">Now ,as you can tell, some of the ores can be broken with a stone pickaxe such as Lapis and Copper, so why do you need a iron pickaxe?? Well in the new update Deepslate has been added and mining Deepslated Copper, Deepslated Lapis can be a very tedious job hence it take a while, and Copper and Lapis ussauly spawn in huge veins of the ore. When mining Lapis and Copper they ussauly give you around 2-4 pieces of Lapis or Raw Copper. And this my friends is where the classic old enchanting table comes in! </p>
+        <h3>Enchantiang</h3>
+        <p id="enchanting"> Enchanting is one the staples of Minecraft. It has been around for quite a while and has proven to be more than useful. It has proven to be the most frusturationg block to work with when you don't get the enchants you want. To obtain a enchantting table you need 4 blocks of obsidian,2 pieces of diamonds plus 1 book. The image below will show you how to craft it:</p>
+        <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/minecraft/9/99/Enchantement_table.png">
+        <p id="howtoenchant">The way you enchant is very simple. You put the equipment you want to enchant in the small box on the left and Lappis in the box on the right. then on the right panel you will see three boxes. Minecraft will randomize through all the different enchantments and pick one that you could or can possibly afford.</p>
+        <img src="http://mcpedl.com/wp-content/uploads/2016/10/enchantment-text-translated.jpg" width="500">
+        <p id="treasureenchants">On it's own the enchanting table won't give you the best enchantments plus any of the treasure enchantmenst. As the name may suggest a treasure enchantment can only be found in loot chests. Some treasure enchantments are enchants such as :Curse of Vannishing, Curse of Binding, Frost Walker, Mending, Soul Speed. The best treasure enchantment is the Mending enchant. Using your XP it will automaticly repair you gear and items(when held in main hand). This enchantment cannot be aquired on an enchanting table. The most fastest and easist way of getting it is by trading a librarian villager. But back to getting your enchanting table to the max level make sure your XP bar is 30 or above. Then surround the table with bookshelfs. if by any chance you dont know how to craft a book then here is a image of the recipe:</p>
+        <img src="https://www.digminecraft.com/block_recipes/images/make_bookshelf.png">
+
+    </body>
+</html>
